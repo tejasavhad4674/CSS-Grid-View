@@ -1,0 +1,286 @@
+/***
+Developed By Tejas Avhad
+knowledge Aquire From Bootstrap.com & codewithharry.com
+Visit here: https://github.com/tejasavhad4674 
+https://g.dev/TejasAvhad
+*****/
+
+body {
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.mob-1,
+.mob-2,
+.mob-3,
+.mob-4,
+.mob-5,
+.mob-6,
+.mob-7,
+.mob-8,
+.mob-9,
+.mob-10,
+.mob-11,
+.mob-12,
+.mob-13,
+.mob-14,
+.mob-15,
+.mob-16 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.mob-13 {
+    width: 81.25;
+}
+
+.mob-14 {
+    width: 87.5%;
+}
+
+.mob-15 {
+    width: 93.75%;
+}
+
+.mob-16 {
+    width: 100%;
+}
+
+.mob-12 {
+    width: 75%;
+}
+
+.mob-11 {
+    width: 68.75%;
+}
+
+.mob-10 {
+    width: 62.5%;
+}
+
+.mob-9 {
+    width: 56.25%;
+}
+
+.mob-8 {
+    width: 50%;
+}
+
+.mob-7 {
+    width: 43.75%;
+}
+
+.mob-6 {
+    width: 37.5%;
+}
+
+.mob-5 {
+    width: 31.25%;
+}
+
+.mob-4 {
+    width: 25%;
+}
+
+.mob-3 {
+    width: 18.75%;
+}
+
+.mob-2 {
+    width: 12.5%;
+}
+
+.mob-1 {
+    width: 6.25%;
+}
+
+@media (min-width: 768px) {
+    .tab-1,
+    .tab-2,
+    .tab-3,
+    .tab-4,
+    .tab-5,
+    .tab-6,
+    .tab-7,
+    .tab-8,
+    .tab-9,
+    .tab-10,
+    .tab-11,
+    .tab-12,
+    .tab-13,
+    .tab-14,
+    .tab-15,
+    .tab-16 {
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .tab-13 {
+        width: 81.25;
+    }
+    .tab-14 {
+        width: 87.5%;
+    }
+    .tab-15 {
+        width: 93.75%;
+    }
+    .tab-16 {
+        width: 100%;
+    }
+    .tab-12 {
+        width: 75%;
+    }
+    .tab-11 {
+        width: 68.75%;
+    }
+    .tab-10 {
+        width: 62.5%;
+    }
+    .tab-9 {
+        width: 56.25%;
+    }
+    .tab-8 {
+        width: 50%;
+    }
+    .tab-7 {
+        width: 43.75%;
+    }
+    .tab-6 {
+        width: 37.5%;
+    }
+    .tab-5 {
+        width: 31.25%;
+    }
+    .tab-4 {
+        width: 25%;
+    }
+    .tab-3 {
+        width: 18.75%;
+    }
+    .tab-2 {
+        width: 12.5%;
+    }
+    .tab-1 {
+        width: 6.25%;
+    }
+}
+
+@media (min-width: 992px) {
+    .lap-1,
+    .lap-2,
+    .lap-3,
+    .lap-4,
+    .lap-5,
+    .lap-6,
+    .lap-7,
+    .lap-8,
+    .lap-9,
+    .lap-10,
+    .lap-11,
+    .lap-12,
+    .lap-13,
+    .lap-14,
+    .lap-15,
+    .lap-16 {
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .lap-13 {
+        width: 81.25;
+    }
+    .lap-14 {
+        width: 87.5%;
+    }
+    .lap-15 {
+        width: 93.75%;
+    }
+    .lap-16 {
+        width: 100%;
+    }
+    .lap-12 {
+        width: 75%;
+    }
+    .lap-11 {
+        width: 68.75%;
+    }
+    .lap-10 {
+        width: 62.5%;
+    }
+    .lap-9 {
+        width: 56.25%;
+    }
+    .lap-8 {
+        width: 50%;
+    }
+    .lap-7 {
+        width: 43.75%;
+    }
+    .lap-6 {
+        width: 37.5%;
+    }
+    .lap-5 {
+        width: 31.25%;
+    }
+    .lap-4 {
+        width: 25%;
+    }
+    .lap-3 {
+        width: 18.75%;
+    }
+    .lap-2 {
+        width: 12.5%;
+    }
+    .lap-1 {
+        width: 6.25%;
+    }
+}
